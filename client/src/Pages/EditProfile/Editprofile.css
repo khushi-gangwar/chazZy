@@ -1,0 +1,18 @@
+form.edit-Form{
+    width:60%;
+    margin: auto;
+    padding: 3rem;
+    margin-bottom:2rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.display{
+    text-align: center;
+    margin: 1rem ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 3rem;
+
+}

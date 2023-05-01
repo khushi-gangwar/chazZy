@@ -1,0 +1,21 @@
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-family: sans-serif;
+}
+:root {
+  --bg-color: #f8f8f8; /* default light mode background color */
+  --text-color: #333; /* default light mode text color */
+}
+
+.dark-mode {
+  --bg-color: #333; /* dark mode background color */
+  --text-color: #f8f8f8; /* dark mode text color */
+}
+
+

@@ -1,0 +1,89 @@
+.main-heading{
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  margin: 1rem 2rem;
+  margin-bottom: 0;
+}
+.row{
+  margin:3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Auth-left{
+ 
+  font-weight: lighter;
+  font-family: inherit;
+  font-style: italic;
+  margin: auto ;
+  visibility: visible;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width:836px) {
+  .Auth-left{
+    visibility: hidden;
+  }
+}
+
+
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=submit]{
+    background-color: #0481aa;
+    border: none;
+    padding: 0.8rem 2rem;
+  }
+  input[type=submit] :hover{
+    background-color: #a8c8d2;
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0 5px 15px -10px #61979e;
+  }
+
+  /* Set a style for all buttons */
+  button {
+    background-color: #0481aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .container-bottom{
+    margin: 1rem;
+
+    padding: 0.5rem;
+
+  }
+
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      /* display: block; */
+      float: none;
+    }
+  
+  }
+  @media screen and (max-width:571px) {
+    .main-heading{
+    font-size: 2rem;
+    margin: 1rem;
+  
+  }
+  }
